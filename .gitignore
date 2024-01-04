@@ -1,0 +1,31 @@
+# 가상 환경 디렉토리 (venv, virtualenv, env 등)
+venv/
+
+# __pycache__ 디렉토리
+__pycache__/
+
+# 로그 파일
+*.log
+
+# 개인 설정 파일 (예: settings.py)
+config.ini
+
+# IDE 또는 코드 편집기 설정 파일 (예: .vscode, .idea 등)
+.vscode/
+.idea/
+
+# .pyc, .pyo, __pycache__ 디렉토리 내의 파일
+*.pyc
+*.pyo
+__pycache__/
+
+# 로컬 개발 환경 설정 파일
+.env
+
+# 개발 중 생성되는 임시 파일 등
+*.bak
+*.swp
+*.~*
+
+# 데이터 디렉토리 또는 큰 데이터 파일
+data/
